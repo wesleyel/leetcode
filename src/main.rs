@@ -35,7 +35,13 @@ mod tests {
 
 fn build_desc(content: &str) -> String {
     let mut object: Value = serde_json::from_str(content).unwrap();
-    let content = object.get_mut("content").unwrap().as_str().unwrap().to_string().render();
+    let content = object
+        .get_mut("content")
+        .unwrap()
+        .as_str()
+        .unwrap()
+        .to_string()
+        .render();
     content.replace("\n", "\n * ")
 }
 
