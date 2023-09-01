@@ -14,7 +14,7 @@ const TEMPLATE_RS: &str = r#"
 pub struct Solution {}
 
 // problem: __PROBLEM_LINK__
-// discuss: __DISCUSS_LINK__
+// discussion: __DISCUSS_LINK__
 
 // submission codes start here
 
@@ -76,7 +76,7 @@ pub async fn init() -> Result<(), Error> {
         .replace(
             "__DISCUSS_LINK__",
             format!(
-                "https://leetcode.cn/problems/{}/discuss/?currentPage=1&orderBy=most_votes&query=",
+                "https://leetcode.cn/problems/{}/discussion/?currentPage=1&orderBy=most_votes&query=",
                 problem.slug
             )
             .as_str(),

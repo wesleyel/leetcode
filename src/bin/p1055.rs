@@ -39,7 +39,7 @@
 pub struct Solution {}
 
 // problem: https://leetcode.cn/problems/shortest-way-to-form-string/
-// discuss: https://leetcode.cn/problems/shortest-way-to-form-string/discuss/?currentPage=1&orderBy=most_votes&query=
+// discussion: https://leetcode.cn/problems/shortest-way-to-form-string/discussion/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
 

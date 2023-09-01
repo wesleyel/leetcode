@@ -30,7 +30,7 @@
 pub struct Solution {}
 
 // problem: https://leetcode.cn/problems/reverse-words-in-a-string-ii/
-// discuss: https://leetcode.cn/problems/reverse-words-in-a-string-ii/discuss/?currentPage=1&orderBy=most_votes&query=
+// discussion: https://leetcode.cn/problems/reverse-words-in-a-string-ii/discussion/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
 

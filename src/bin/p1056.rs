@@ -51,7 +51,7 @@
 pub struct Solution {}
 
 // problem: https://leetcode.cn/problems/confusing-number/
-// discuss: https://leetcode.cn/problems/confusing-number/discuss/?currentPage=1&orderBy=most_votes&query=
+// discussion: https://leetcode.cn/problems/confusing-number/discussion/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
 

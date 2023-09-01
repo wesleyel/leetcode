@@ -38,7 +38,7 @@
 pub struct Solution {}
 
 // problem: https://leetcode.cn/problems/one-edit-distance/
-// discuss: https://leetcode.cn/problems/one-edit-distance/discuss/?currentPage=1&orderBy=most_votes&query=
+// discussion: https://leetcode.cn/problems/one-edit-distance/discussion/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
 

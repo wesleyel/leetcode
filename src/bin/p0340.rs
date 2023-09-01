@@ -29,7 +29,7 @@
 pub struct Solution {}
 
 // problem: https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/
-// discuss: https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/discuss/?currentPage=1&orderBy=most_votes&query=
+// discussion: https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/discussion/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
 

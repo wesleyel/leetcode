@@ -47,7 +47,7 @@
 pub struct Solution {}
 
 // problem: https://leetcode.cn/problems/perform-string-shifts/
-// discuss: https://leetcode.cn/problems/perform-string-shifts/discuss/?currentPage=1&orderBy=most_votes&query=
+// discussion: https://leetcode.cn/problems/perform-string-shifts/discussion/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
 
