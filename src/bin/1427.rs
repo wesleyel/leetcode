@@ -2,7 +2,9 @@
 
 impl Solution {
     pub fn string_shift(s: String, shift: Vec<Vec<i32>>) -> String {
-        let mut index = shift.iter().fold(0, |acc, x| acc + i32::pow(-1, x[0] as u32) * x[1]);
+        let mut index = shift
+            .iter()
+            .fold(0, |acc, x| acc + i32::pow(-1, x[0] as u32) * x[1]);
         let len = s.len() as i32;
         index = (index % len + len) % len;
         format!("{}{}", &s[index as usize..], &s[..index as usize])
