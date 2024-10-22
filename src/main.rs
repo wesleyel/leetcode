@@ -75,7 +75,7 @@ fn main() -> io::Result<()> {
         }
     }
 
-    problems.sort_by(|a, b| a.id.cmp(&b.id));
+    problems.sort_by(|a, b| a.id.parse::<i32>().unwrap().cmp(&b.id.parse::<i32>().unwrap()));
 
     // Generate Markdown table
     let mut markdown = String::from("| ID | 名称 | 链接 | 分类 | 难度 |\n");
