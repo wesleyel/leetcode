@@ -1,0 +1,19 @@
+{
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "${workspaceFolder}",
+    "leetcode.showDescription": "Both",
+    "leetcode.defaultLanguage": "rust",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.filePath": {
+        "rust": {
+            "folder": "src/bin",
+            "filename": "${id}_${kebab-case-name}.${ext}"
+        },
+        "default": {
+            "folder": "",
+            "filename": "${id}_${kebab-case-name}.${ext}"
+        }
+    },
+    "leetcode.hint.commentDescription": false,
+}
