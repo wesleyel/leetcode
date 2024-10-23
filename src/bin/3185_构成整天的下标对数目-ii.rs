@@ -63,18 +63,14 @@ fn main() {}
 // @lc code=start
 impl Solution {
     pub fn count_complete_day_pairs(hours: Vec<i32>) -> i64 {
-        let mut hashmap = std::collections::HashMap::new();
-
-        hours.iter().fold(0i64, |mut acc, &hour| {
-            let val = hour % 24;
-            let pair_to_val = (24 - val) % 24;
-
-            if let Some(&cnt) = hashmap.get(&pair_to_val) {
-                acc += cnt;
-            }
-            *hashmap.entry(val).or_insert(0) += 1;
-            acc
-        })
+        let mut res = 0i64;
+        let mut bitmap = [0u32; 24];
+        for &hour in &hours {
+            let h = hour as usize % 24;
+            res += bitmap[(24 - h) % 24] as i64;
+            bitmap[h] += 1;
+        }
+        res
     }
 }
 // @lc code=end
