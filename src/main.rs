@@ -9,6 +9,7 @@ struct Problem {
     link: String,
     category: String,
     difficulty: String,
+    path: String,
 }
 
 const README_TEMPLATE: &str = r#"
@@ -50,6 +51,7 @@ fn main() -> io::Result<()> {
                 link: String::new(),
                 category: String::new(),
                 difficulty: String::new(),
+                path: path.file_name().unwrap().to_str().unwrap().to_string(),
             };
             // 在全文中搜索并提取信息
             if let Some(caps) = re_id.captures(&content) {
@@ -75,15 +77,24 @@ fn main() -> io::Result<()> {
         }
     }
 
-    problems.sort_by(|a, b| a.id.parse::<i32>().unwrap().cmp(&b.id.parse::<i32>().unwrap()));
+    problems.sort_by(|a, b| {
+        a.id.parse::<i32>()
+            .unwrap()
+            .cmp(&b.id.parse::<i32>().unwrap())
+    });
 
     // Generate Markdown table
-    let mut markdown = String::from("| ID | 名称 | 链接 | 分类 | 难度 |\n");
-    markdown.push_str("|----|------|------|------|------|\n");
+    let mut markdown = String::from("| ID | 名称 | 分类 | 难度 | 链接 | 路径 |\n");
+    markdown.push_str("|----|------|------|------|------|------|\n");
     for p in problems {
         markdown.push_str(&format!(
-            "| {} | {} | [链接]({}) | {} | {} |\n",
-            p.id, p.name, p.link, p.category, p.difficulty
+            "| {} | {} | {} | {} | [链接]({}) | {} |\n",
+            p.id,
+            p.name,
+            p.category,
+            p.difficulty,
+            p.link,
+            format!("[源码](src/bin/{})", p.path)
         ));
     }
 
