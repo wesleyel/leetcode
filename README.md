@@ -12,6 +12,7 @@
 | 10 | 正则表达式匹配 | algorithms | Hard | [链接](https://leetcode.cn/problems/regular-expression-matching/description/) | [源码](src/bin/10_正则表达式匹配.rs) |
 | 11 | 盛最多水的容器 | algorithms | Medium | [链接](https://leetcode.cn/problems/container-with-most-water/description/) | [源码](src/bin/11_盛最多水的容器.rs) |
 | 14 | 最长公共前缀 | algorithms | Easy | [链接](https://leetcode.cn/problems/longest-common-prefix/description/) | [源码](src/bin/14_最长公共前缀.rs) |
+| 17 | 电话号码的字母组合 | algorithms | Medium | [链接](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/) | [源码](src/bin/17_电话号码的字母组合.rs) |
 | 21 | 合并两个有序链表 | algorithms | Easy | [链接](https://leetcode.cn/problems/merge-two-sorted-lists/description/) | [源码](src/bin/21_合并两个有序链表.rs) |
 | 26 | 删除有序数组中的重复项 | algorithms | Easy | [链接](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/) | [源码](src/bin/26_删除有序数组中的重复项.rs) |
 | 28 | 找出字符串中第一个匹配项的下标 | algorithms | Easy | [链接](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) | [源码](src/bin/28_找出字符串中第一个匹配项的下标.rs) |
