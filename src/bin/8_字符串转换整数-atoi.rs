@@ -192,9 +192,8 @@ mod tests {
         // 舍入：如果整数数超过 32 位有符号整数范围 [−2^31,  2^31 − 1] ，需要截断这个整数，使其保持在这个范围内
         let s = i32::MAX.to_string() + "1";
         assert_eq!(Solution::my_atoi(s), i32::MAX);
-
-        // Fail
+        // negative overflow
         let s = "-91283472332".to_string();
-        assert_eq!(Solution::my_atoi(s), -2147483648);
+        assert_eq!(Solution::my_atoi(s), i32::MIN);
     }
 }
