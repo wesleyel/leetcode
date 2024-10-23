@@ -8,6 +8,8 @@
 |----|------|------|------|------|
 | 4 | 寻找两个正序数组的中位数 | [链接](https://leetcode.cn/problems/median-of-two-sorted-arrays/description/) | algorithms | Hard |
 | 5 | 最长回文子串 | [链接](https://leetcode.cn/problems/longest-palindromic-substring/description/) | algorithms | Medium |
+| 6 | Z 字形变换 | [链接](https://leetcode.cn/problems/zigzag-conversion/description/) | algorithms | Medium |
+| 7 | 整数反转 | [链接](https://leetcode.cn/problems/reverse-integer/description/) | algorithms | Medium |
 | 14 | 最长公共前缀 | [链接](https://leetcode.cn/problems/longest-common-prefix/description/) | algorithms | Easy |
 | 21 | 合并两个有序链表 | [链接](https://leetcode.cn/problems/merge-two-sorted-lists/description/) | algorithms | Easy |
 | 26 | 删除有序数组中的重复项 | [链接](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/) | algorithms | Easy |
