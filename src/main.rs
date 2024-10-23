@@ -12,13 +12,35 @@ struct Problem {
     path: String,
 }
 
-const README_TEMPLATE: &str = r#"
-
-## LeetCode rust
+const README_TEMPLATE: &str = r#"# LeetCode rust
 
 这是我在 LeetCode 上的 rust 解题仓库，主要用于记录自己的解题思路和代码。
 
 <MARKDOWN_TABLE>
+
+## Config
+
+- 使用魔改的vscode插件[LeetCode modified](https://marketplace.visualstudio.com/items?itemName=magicwenli.vscode-leetcode-modified)
+- 手动修改template: `vscode-insiders\data\extensions\magicwenli.vscode-leetcode-modified-0.18.4\node_modules\vsc-leetcode-cli\templates\detailed.tpl`
+
+加上一些额外的东西
+
+```rust
+struct Solution;
+fn main() {}
+
+${comment.singleLine} @lc code=start
+${code}
+${comment.singleLine} @lc code=end
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test() {}
+}
+```
 
 ## License
 

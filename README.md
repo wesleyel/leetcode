@@ -1,6 +1,4 @@
-
-
-## LeetCode rust
+# LeetCode rust
 
 这是我在 LeetCode 上的 rust 解题仓库，主要用于记录自己的解题思路和代码。
 
@@ -18,6 +16,30 @@
 | 35 | 搜索插入位置 | algorithms | Easy | [链接](https://leetcode.cn/problems/search-insert-position/description/) | [源码](src/bin/35_搜索插入位置.rs) |
 | 58 | 最后一个单词的长度 | algorithms | Easy | [链接](https://leetcode.cn/problems/length-of-last-word/description/) | [源码](src/bin/58_最后一个单词的长度.rs) |
 
+
+## Config
+
+- 使用魔改的vscode插件[LeetCode modified](https://marketplace.visualstudio.com/items?itemName=magicwenli.vscode-leetcode-modified)
+- 手动修改template: `vscode-insiders\data\extensions\magicwenli.vscode-leetcode-modified-0.18.4\node_modules\vsc-leetcode-cli\templates\detailed.tpl`
+
+加上一些额外的东西
+
+```rust
+struct Solution;
+fn main() {}
+
+${comment.singleLine} @lc code=start
+${code}
+${comment.singleLine} @lc code=end
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test() {}
+}
+```
 
 ## License
 
