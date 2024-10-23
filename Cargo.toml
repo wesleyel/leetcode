@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "gen_readme"
-path = "src/main.rs"
+name = "readme_gen"
+path = "src/readme_gen.rs"
 
 [dependencies]
 regex = "1.11.0"

@@ -24,9 +24,16 @@
 ## Config
 
 - 使用魔改的vscode插件[LeetCode modified](https://marketplace.visualstudio.com/items?itemName=magicwenli.vscode-leetcode-modified)
-- 手动修改template: `vscode-insiders\data\extensions\magicwenli.vscode-leetcode-modified-0.18.4\node_modules\vsc-leetcode-cli\templates\detailed.tpl`
+- 修改git pre-commit hook
 
-加上一些额外的东西
+```shell
+#!/bin/sh
+cargo fmt --all
+cargo run --bin readme_gen
+git add README.md
+```
+
+- 手动修改template: `vscode-insiders\data\extensions\magicwenli.vscode-leetcode-modified-0.18.4\node_modules\vsc-leetcode-cli\templates\detailed.tpl`, 给template加上一些额外的东西
 
 ```rust
 struct Solution;
