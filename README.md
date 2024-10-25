@@ -21,6 +21,8 @@
 | 58 | 最后一个单词的长度 | algorithms | Easy | [链接](https://leetcode.cn/problems/length-of-last-word/description/) | [源码](src/bin/58_最后一个单词的长度.rs) |
 | 2182 | 构造限制重复的字符串 | algorithms | Medium | [链接](https://leetcode.cn/problems/construct-string-with-repeat-limit/description/) | [源码](src/bin/2182_构造限制重复的字符串.rs) |
 | 3175 | 找到连续赢 K 场比赛的第一位玩家 | algorithms | Medium | [链接](https://leetcode.cn/problems/find-the-first-player-to-win-k-games-in-a-row/description/) | [源码](src/bin/3175_找到连续赢-k-场比赛的第一位玩家.rs) |
+| 3180 | 执行操作可获得的最大总奖励 I | algorithms | Medium | [链接](https://leetcode.cn/problems/maximum-total-reward-using-operations-i/description/) | [源码](src/bin/3180_执行操作可获得的最大总奖励-i.rs) |
+| 3181 | 执行操作可获得的最大总奖励 II | algorithms | Hard | [链接](https://leetcode.cn/problems/maximum-total-reward-using-operations-ii/description/) | [源码](src/bin/3181_执行操作可获得的最大总奖励-ii.rs) |
 | 3185 | 构成整天的下标对数目 II | algorithms | Medium | [链接](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii/description/) | [源码](src/bin/3185_构成整天的下标对数目-ii.rs) |
 
 
