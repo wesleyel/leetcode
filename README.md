@@ -11,7 +11,9 @@
 | 8 | 字符串转换整数 (atoi) | algorithms | Medium | [链接](https://leetcode.cn/problems/string-to-integer-atoi/description/) | [源码](src/bin/8_字符串转换整数-atoi.rs) |
 | 10 | 正则表达式匹配 | algorithms | Hard | [链接](https://leetcode.cn/problems/regular-expression-matching/description/) | [源码](src/bin/10_正则表达式匹配.rs) |
 | 11 | 盛最多水的容器 | algorithms | Medium | [链接](https://leetcode.cn/problems/container-with-most-water/description/) | [源码](src/bin/11_盛最多水的容器.rs) |
+| 12 | 整数转罗马数字 | algorithms | Medium | [链接](https://leetcode.cn/problems/integer-to-roman/description/) | [源码](src/bin/12_整数转罗马数字.rs) |
 | 14 | 最长公共前缀 | algorithms | Easy | [链接](https://leetcode.cn/problems/longest-common-prefix/description/) | [源码](src/bin/14_最长公共前缀.rs) |
+| 15 | 三数之和 | algorithms | Medium | [链接](https://leetcode.cn/problems/3sum/description/) | [源码](src/bin/15_三数之和.rs) |
 | 17 | 电话号码的字母组合 | algorithms | Medium | [链接](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/) | [源码](src/bin/17_电话号码的字母组合.rs) |
 | 19 | 删除链表的倒数第 N 个结点 | algorithms | Medium | [链接](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) | [源码](src/bin/19_删除链表的倒数第-n-个结点.rs) |
 | 21 | 合并两个有序链表 | algorithms | Easy | [链接](https://leetcode.cn/problems/merge-two-sorted-lists/description/) | [源码](src/bin/21_合并两个有序链表.rs) |
