@@ -69,19 +69,15 @@ impl ListNode {
 
 impl Solution {
     pub fn swap_pairs(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
-        if (head.is_none()) {
-            return None;
-        }
-        if (head.as_ref().unwrap().next.is_none()) {
-            return head;
-        }
-        let mut head = head;
-        let mut first = head.take().unwrap();
-        let mut second = first.next.take().unwrap();
-
-        first.next = Solution::swap_pairs(second.next.take());
-        second.next = Some(first);
-        Some(second)
+        head.and_then(|mut head| {
+            if let Some(mut next) = head.next.take() {
+                head.next = Self::swap_pairs(next.next.take());
+                next.next = Some(head);
+                Some(next)
+            } else {
+                Some(head)
+            }
+        })
     }
 }
 // @lc code=end
