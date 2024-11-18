@@ -18,6 +18,7 @@
 | 19 | 删除链表的倒数第 N 个结点 | algorithms | Medium | [链接](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) | [源码](src/bin/19_删除链表的倒数第-n-个结点.rs) |
 | 21 | 合并两个有序链表 | algorithms | Easy | [链接](https://leetcode.cn/problems/merge-two-sorted-lists/description/) | [源码](src/bin/21_合并两个有序链表.rs) |
 | 22 | 括号生成 | algorithms | Medium | [链接](https://leetcode.cn/problems/generate-parentheses/description/) | [源码](src/bin/22_括号生成.rs) |
+| 24 | 两两交换链表中的节点 | algorithms | Medium | [链接](https://leetcode.cn/problems/swap-nodes-in-pairs/description/) | [源码](src/bin/24_两两交换链表中的节点.rs) |
 | 26 | 删除有序数组中的重复项 | algorithms | Easy | [链接](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/) | [源码](src/bin/26_删除有序数组中的重复项.rs) |
 | 28 | 找出字符串中第一个匹配项的下标 | algorithms | Easy | [链接](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) | [源码](src/bin/28_找出字符串中第一个匹配项的下标.rs) |
 | 35 | 搜索插入位置 | algorithms | Easy | [链接](https://leetcode.cn/problems/search-insert-position/description/) | [源码](src/bin/35_搜索插入位置.rs) |
