@@ -24,6 +24,7 @@
 | 35 | 搜索插入位置 | algorithms | Easy | [链接](https://leetcode.cn/problems/search-insert-position/description/) | [源码](src/bin/35_搜索插入位置.rs) |
 | 50 | Pow(x, n) | algorithms | Medium | [链接](https://leetcode.cn/problems/powx-n/description/) | [源码](src/bin/50_pow-x-n.rs) |
 | 58 | 最后一个单词的长度 | algorithms | Easy | [链接](https://leetcode.cn/problems/length-of-last-word/description/) | [源码](src/bin/58_最后一个单词的长度.rs) |
+| 61 | 旋转链表 | algorithms | Medium | [链接](https://leetcode.cn/problems/rotate-list/description/) | [源码](src/bin/61_旋转链表.rs) |
 | 73 | 矩阵置零 | algorithms | Medium | [链接](https://leetcode.cn/problems/set-matrix-zeroes/description/) | [源码](src/bin/73_矩阵置零.rs) |
 | 74 | 搜索二维矩阵 | algorithms | Medium | [链接](https://leetcode.cn/problems/search-a-2d-matrix/description/) | [源码](src/bin/74_搜索二维矩阵.rs) |
 | 2182 | 构造限制重复的字符串 | algorithms | Medium | [链接](https://leetcode.cn/problems/construct-string-with-repeat-limit/description/) | [源码](src/bin/2182_构造限制重复的字符串.rs) |
