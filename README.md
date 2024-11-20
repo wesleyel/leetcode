@@ -27,6 +27,7 @@
 | 61 | 旋转链表 | algorithms | Medium | [链接](https://leetcode.cn/problems/rotate-list/description/) | [源码](src/bin/61_旋转链表.rs) |
 | 73 | 矩阵置零 | algorithms | Medium | [链接](https://leetcode.cn/problems/set-matrix-zeroes/description/) | [源码](src/bin/73_矩阵置零.rs) |
 | 74 | 搜索二维矩阵 | algorithms | Medium | [链接](https://leetcode.cn/problems/search-a-2d-matrix/description/) | [源码](src/bin/74_搜索二维矩阵.rs) |
+| 83 | 删除排序链表中的重复元素 | algorithms | Easy | [链接](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/) | [源码](src/bin/83_删除排序链表中的重复元素.rs) |
 | 2182 | 构造限制重复的字符串 | algorithms | Medium | [链接](https://leetcode.cn/problems/construct-string-with-repeat-limit/description/) | [源码](src/bin/2182_构造限制重复的字符串.rs) |
 | 3175 | 找到连续赢 K 场比赛的第一位玩家 | algorithms | Medium | [链接](https://leetcode.cn/problems/find-the-first-player-to-win-k-games-in-a-row/description/) | [源码](src/bin/3175_找到连续赢-k-场比赛的第一位玩家.rs) |
 | 3180 | 执行操作可获得的最大总奖励 I | algorithms | Medium | [链接](https://leetcode.cn/problems/maximum-total-reward-using-operations-i/description/) | [源码](src/bin/3180_执行操作可获得的最大总奖励-i.rs) |
