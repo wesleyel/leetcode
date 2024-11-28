@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/rotate-list/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: linked-list,two-pointers
  * Medium (41.45%)
  * Likes:    1100
  * Dislikes: 0

@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array
  * Medium (53.67%)
  * Likes:    26
  * Dislikes: 0

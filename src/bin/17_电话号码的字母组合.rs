@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string,backtracking
  * Medium (60.78%)
  * Likes:    2925
  * Dislikes: 0

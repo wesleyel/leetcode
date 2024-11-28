@@ -8,6 +8,7 @@ struct Problem {
     name: String,
     link: String,
     category: String,
+    tags: String,
     difficulty: String,
     path: String,
 }
@@ -30,6 +31,12 @@ cargo run --bin readme_gen
 git add README.md
 ```
 
+template修改:
+
+使用magicwenli.vscode-leetcode-modified最新版会自动修改rust的预制模板。
+
+<details><summary>手动修改vsc-leetcode-cli</summary
+
 - 手动修改template: `vscode-insiders\data\extensions\magicwenli.vscode-leetcode-modified-0.18.4\node_modules\vsc-leetcode-cli\templates\detailed.tpl`, 给template加上一些额外的东西
 
 ```rust
@@ -48,6 +55,7 @@ mod tests {
     fn test() {}
 }
 ```
+</details>
 
 ## License
 
@@ -64,7 +72,8 @@ fn main() -> io::Result<()> {
     let re_id = Regex::new(r"@lc app=leetcode\.cn id=(\d+) lang=rust").unwrap();
     let re_name = Regex::new(r"\[\d+\] (.+)").unwrap();
     let re_link = Regex::new(r"https?://leetcode\.cn/problems/[^\s]+").unwrap();
-    let re_category = Regex::new(r" \* ([\w,]+)").unwrap();
+    let re_category = Regex::new(r" \* category: ([\w,-]+)").unwrap();
+    let re_tags = Regex::new(r" \* tags: ([\w,-]+)").unwrap();
     let re_difficulty = Regex::new(r"(\w+) \(\d+\.\d+%\)").unwrap();
 
     // Iterate over each .rs file in src/bin
@@ -79,6 +88,7 @@ fn main() -> io::Result<()> {
                 name: String::new(),
                 link: String::new(),
                 category: String::new(),
+                tags: String::new(),
                 difficulty: String::new(),
                 path: path.file_name().unwrap().to_str().unwrap().to_string(),
             };
@@ -92,9 +102,11 @@ fn main() -> io::Result<()> {
             if let Some(caps) = re_link.captures(&content) {
                 problem.link = caps[0].to_string();
             }
-            let mut caps = re_category.captures_iter(&content);
-            if let Some(caps) = caps.nth(1) {
+            if let Some(caps) = re_category.captures(&content) {
                 problem.category = caps[1].to_string();
+            }
+            if let Some(caps) = re_tags.captures(&content) {
+                problem.tags = caps[1].to_string();
             }
             if let Some(caps) = re_difficulty.captures(&content) {
                 problem.difficulty = caps[1].to_string();
@@ -113,14 +125,15 @@ fn main() -> io::Result<()> {
     });
 
     // Generate Markdown table
-    let mut markdown = String::from("| ID | 名称 | 分类 | 难度 | 链接 | 路径 |\n");
-    markdown.push_str("|----|------|------|------|------|------|\n");
+    let mut markdown = String::from("| ID | 名称 | 分类 | 标签 | 难度 | 链接 | 路径 |\n");
+    markdown.push_str("|----|------|------|------|------|------|------|\n");
     for p in problems {
         markdown.push_str(&format!(
-            "| {} | {} | {} | {} | [链接]({}) | {} |\n",
+            "| {} | {} | {} | {} | {} | [链接]({}) | {} |\n",
             p.id,
             p.name,
             p.category,
+            p.tags,
             p.difficulty,
             p.link,
             format!("[源码](src/bin/{})", p.path)

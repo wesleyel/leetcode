@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string
  * Easy (44.25%)
  * Likes:    2302
  * Dislikes: 0

@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/integer-to-roman/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: math,string
  * Medium (67.93%)
  * Likes:    1339
  * Dislikes: 0

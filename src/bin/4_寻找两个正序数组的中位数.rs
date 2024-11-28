@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/median-of-two-sorted-arrays/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array,binary-search,divide-and-conquer
  * Hard (42.75%)
  * Likes:    7270
  * Dislikes: 0

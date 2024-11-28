@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/string-to-integer-atoi/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string
  * Medium (21.39%)
  * Likes:    1861
  * Dislikes: 0

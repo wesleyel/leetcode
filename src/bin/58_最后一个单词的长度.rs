@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/length-of-last-word/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string
  * Easy (46.78%)
  * Likes:    721
  * Dislikes: 0

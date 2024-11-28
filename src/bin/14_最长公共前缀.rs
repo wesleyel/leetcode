@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/longest-common-prefix/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string
  * Easy (44.42%)
  * Likes:    3197
  * Dislikes: 0

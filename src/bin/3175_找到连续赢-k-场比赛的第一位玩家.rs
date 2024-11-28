@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/find-the-first-player-to-win-k-games-in-a-row/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array
  * Medium (45.61%)
  * Likes:    22
  * Dislikes: 0

@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/powx-n/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: math,recursion
  * Medium (38.61%)
  * Likes:    1404
  * Dislikes: 0

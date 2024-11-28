@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/3sum/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array,two-pointers
  * Medium (38.54%)
  * Likes:    7107
  * Dislikes: 0

@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array,two-pointers
  * Easy (57.19%)
  * Likes:    3661
  * Dislikes: 0

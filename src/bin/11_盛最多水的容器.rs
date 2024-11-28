@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/container-with-most-water/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array,two-pointers
  * Medium (60.69%)
  * Likes:    5148
  * Dislikes: 0

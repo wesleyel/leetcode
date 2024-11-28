@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/regular-expression-matching/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string,dynamic-programming,backtracking
  * Hard (30.74%)
  * Likes:    3985
  * Dislikes: 0

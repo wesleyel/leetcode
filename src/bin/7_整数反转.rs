@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/reverse-integer/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: math
  * Medium (35.56%)
  * Likes:    4023
  * Dislikes: 0

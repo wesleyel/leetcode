@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/search-insert-position/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array,binary-search
  * Easy (47.13%)
  * Likes:    2385
  * Dislikes: 0

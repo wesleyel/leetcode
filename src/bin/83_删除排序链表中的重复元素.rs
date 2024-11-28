@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: linked-list
  * Easy (54.19%)
  * Likes:    1168
  * Dislikes: 0

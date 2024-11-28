@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/zigzag-conversion/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string
  * Medium (53.32%)
  * Likes:    2394
  * Dislikes: 0

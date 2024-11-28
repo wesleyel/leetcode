@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/set-matrix-zeroes/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array
  * Medium (68.65%)
  * Likes:    1120
  * Dislikes: 0

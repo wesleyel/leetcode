@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/longest-palindromic-substring/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string,dynamic-programming
  * Medium (38.82%)
  * Likes:    7395
  * Dislikes: 0

@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/construct-string-with-repeat-limit/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string,greedy
  * Medium (60.40%)
  * Likes:    86
  * Dislikes: 0

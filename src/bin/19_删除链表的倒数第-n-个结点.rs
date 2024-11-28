@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: linked-list,two-pointers
  * Medium (49.51%)
  * Likes:    2958
  * Dislikes: 0

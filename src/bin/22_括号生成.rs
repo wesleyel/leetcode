@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/generate-parentheses/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: string,backtracking
  * Medium (78.20%)
  * Likes:    3713
  * Dislikes: 0

@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/maximum-total-reward-using-operations-ii/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: dynamic-programming
  * Hard (34.29%)
  * Likes:    12
  * Dislikes: 0

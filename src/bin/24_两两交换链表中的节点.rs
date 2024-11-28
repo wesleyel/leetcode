@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/swap-nodes-in-pairs/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: linked-list
  * Medium (73.24%)
  * Likes:    2310
  * Dislikes: 0

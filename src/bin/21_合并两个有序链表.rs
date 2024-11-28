@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/merge-two-sorted-lists/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: linked-list
  * Easy (67.14%)
  * Likes:    3612
  * Dislikes: 0

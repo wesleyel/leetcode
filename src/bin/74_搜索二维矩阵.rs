@@ -5,7 +5,8 @@
  *
  * https://leetcode.cn/problems/search-a-2d-matrix/description/
  *
- * algorithms
+ * category: algorithms
+ * tags: array,binary-search,matrix
  * Medium (50.41%)
  * Likes:    980
  * Dislikes: 0
