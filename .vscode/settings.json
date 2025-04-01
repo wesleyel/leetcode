@@ -1,6 +1,6 @@
 {
     "leetcode.endpoint": "leetcode-cn",
-    "leetcode.workspaceFolder": "d:\\11 DevTools\\01 Scripts\\00leetcode\\rust",
+    "leetcode.workspaceFolder": "/data/codes/leetcode",
     "leetcode.showDescription": "Both",
     "leetcode.defaultLanguage": "rust",
     "leetcode.hint.configWebviewMarkdown": false,
